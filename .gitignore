@@ -4,15 +4,31 @@ __pycache__/
 *.pyo
 *.pyd
 *.pytest_cache/
+*.log
 .venv/
 myenv/
+env/
 .env
+.env.*
 
 # Django
 db.sqlite3
 staticfiles/
 media/
+*.pot
 
-# IDE
+# Unit test / coverage
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+coverage.xml
+
+# IDE / OS
 .vscode/
 .idea/
+*.swp
+.DS_Store
+Thumbs.db
